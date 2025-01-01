@@ -25,9 +25,6 @@
     font-size: 16px;
 }
 
-
-
-
 @keyframes vibration {
     0% {
         transform: rotate(-90deg);
