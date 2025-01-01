@@ -5,7 +5,9 @@ import "../styles/cta.css";
 export const Cta = () => {
   const abriWhatsApp = () => {
     const numero = "31983272409";
-    const mensagem = `Olá Gabriel, gostaria de fazer um *Link Personalizado*. 
+    const mensagem = `
+    Olá Gabriel, gostaria de fazer um *Link Personalizado*.
+
     poderia me fornencer mais informações?`;
     const uriComponent = encodeURIComponent(mensagem);
     const url = `https://wa.me/${numero}?text=${uriComponent}`;
