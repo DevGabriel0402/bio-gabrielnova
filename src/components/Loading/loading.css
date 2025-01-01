@@ -1,0 +1,25 @@
+#loading {
+    width: 100% !important;
+    min-height: 100dvh;
+    z-index: 999;
+    background-color: #0b0b0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spin {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fafafa;
+    border-bottom: 1px solid transparent;
+    border-right: 1px solid #fafafa;
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(360deg);
+    }
+}
