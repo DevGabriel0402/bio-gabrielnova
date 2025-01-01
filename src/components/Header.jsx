@@ -1,4 +1,4 @@
-import "../Header/header.css";
+import "../styles/header.css";
 import "boxicons";
 import "animate.css";
 import Musica from "@/assets/music/musica.webm";

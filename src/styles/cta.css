@@ -1,0 +1,45 @@
+.box-cta {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    background-color: #0C3873;
+    border-radius: 12px;
+    color: #fafafa;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+    animation-duration: 2;
+    animation-delay: 2.3s;
+}
+
+.box-cta #icon {
+    animation: vibration 2.5s linear infinite;
+}
+
+
+
+.box-cta h2 {
+    font-size: 16px;
+}
+
+
+
+
+@keyframes vibration {
+    0% {
+        transform: rotate(-90deg);
+    }
+
+    50% {
+        transform: rotate(-45deg);
+
+    }
+
+    100% {
+        transform: rotate(-90deg);
+
+    }
+}

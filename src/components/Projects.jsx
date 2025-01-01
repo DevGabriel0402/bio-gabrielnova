@@ -1,6 +1,6 @@
-import "../Projects/projects.css";
+import "../styles/projects.css";
 import "animate.css";
-import { Box } from "./BoxComponents";
+import { Box } from "./BoxComponents.jsx";
 import BellaHImage from "@/assets/imagens/Bellah-freire.png";
 import CharlesImage from "@/assets/imagens/Charles-gama.png";
 import TaynaImage from "@/assets/imagens/Tayna-consultoria.png";

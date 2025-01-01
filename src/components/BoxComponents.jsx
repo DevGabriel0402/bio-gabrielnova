@@ -1,4 +1,4 @@
-import "../Projects/projects.css";
+import "../styles/projects.css";
 import "boxicons";
 import "animate.css";
 
