@@ -8,7 +8,7 @@ export const Cta = () => {
     const mensagem = `
     Olá Gabriel, gostaria de fazer um *Link Personalizado*.
 
-    poderia me fornencer mais informações?`;
+    Poderia me fornencer mais informações?`;
     const uriComponent = encodeURIComponent(mensagem);
     const url = `https://wa.me/${numero}?text=${uriComponent}`;
 
