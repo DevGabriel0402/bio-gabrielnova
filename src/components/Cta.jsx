@@ -14,7 +14,7 @@ export const Cta = () => {
     const uriComponent = encodeURIComponent(mensagem);
     const url = `https://wa.me/${numero}?text=${uriComponent}`;
 
-    window.open(url, "_blank");
+    window.open(url, "_self");
   };
   return (
     <>
