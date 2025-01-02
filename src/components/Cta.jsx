@@ -18,7 +18,7 @@ export const Cta = () => {
 
       window.open(url, "_blank");
       document.getElementById("toast").style.display = "none";
-    }, 1700);
+    }, 2000);
   };
   return (
     <>
