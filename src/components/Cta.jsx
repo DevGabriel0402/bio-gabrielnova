@@ -5,17 +5,16 @@ import "../styles/cta.css";
 export const Cta = () => {
   const abriWhatsApp = () => {
     alert("Estamos te encaminhando para o WhatsApp. Aguarde!");
-    setTimeout(() => {
-      const numero = "31983272409";
-      const mensagem = `
+
+    const numero = "31983272409";
+    const mensagem = `
     Olá Gabriel, gostaria de fazer um *Link Personalizado*.
 
     Poderia me fornencer mais informações?`;
-      const uriComponent = encodeURIComponent(mensagem);
-      const url = `https://wa.me/${numero}?text=${uriComponent}`;
+    const uriComponent = encodeURIComponent(mensagem);
+    const url = `https://wa.me/${numero}?text=${uriComponent}`;
 
-      window.open(url, "_blank");
-    }, 1000);
+    window.open(url, "_blank");
   };
   return (
     <>
