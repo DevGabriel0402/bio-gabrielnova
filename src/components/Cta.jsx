@@ -1,12 +1,10 @@
 import "boxicons";
 import "animate.css";
 import "../styles/cta.css";
-import { Toast } from "./Toast";
 
 export const Cta = () => {
   const abriWhatsApp = () => {
-    document.getElementById("toast").style.display = "flex";
-
+    alert("Estamos te encaminhando para o WhatsApp. Aguarde!");
     setTimeout(() => {
       const numero = "31983272409";
       const mensagem = `
@@ -17,20 +15,10 @@ export const Cta = () => {
       const url = `https://wa.me/${numero}?text=${uriComponent}`;
 
       window.open(url, "_blank");
-      document.getElementById("toast").style.display = "none";
-    }, 2000);
+    }, 1000);
   };
   return (
     <>
-      <Toast
-        id={"toast"}
-        title={"Estamos te encaminhando. Aguarde!"}
-        bg={"#262626"}
-        color={"#fafafa"}
-        icon={"whatsapp"}
-        size={"30px"}
-        iconColor={"green"}
-      />
       <div
         className="box-cta animate__animated animate__fadeInUp"
         onClick={abriWhatsApp}
