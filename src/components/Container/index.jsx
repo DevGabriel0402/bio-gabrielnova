@@ -1,8 +1,8 @@
-import "../styles/container.css";
-import { Header } from "./Header.jsx";
-import { Skills } from "./Skills.jsx";
-import { Projects } from "./Projects.jsx";
-import { Cta } from "./Cta.jsx";
+import "../../styles/container.css";
+import { Header } from "../Header/";
+import { Skills } from "../Skills/";
+import { Projects } from "../Projects/";
+import { Cta } from "../Cta/";
 // import { Loading } from "../Loading/Loading.jsx";
 export const Container = () => {
   return (

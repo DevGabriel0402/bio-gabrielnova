@@ -1,6 +1,6 @@
 import "boxicons";
 import "animate.css";
-import "../styles/cta.css";
+import "../../styles/cta.css";
 
 export const Cta = () => {
   const abriWhatsApp = () => {

@@ -1,6 +1,6 @@
 import "boxicons";
 import "animate.css";
-import "../styles/skills.css";
+import "../../styles/skills.css";
 
 export const Skills = () => {
   return (

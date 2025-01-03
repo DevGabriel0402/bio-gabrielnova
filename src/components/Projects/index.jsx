@@ -1,6 +1,6 @@
-import "../styles/projects.css";
+import "../../styles/projects.css";
 import "animate.css";
-import { Box } from "./BoxComponents.jsx";
+import { Box } from "../BoxComponents/index.jsx";
 import BellaHImage from "@/assets/imagens/Bellah-freire.png";
 import CharlesImage from "@/assets/imagens/Charles-gama.png";
 import TaynaImage from "@/assets/imagens/Tayna-consultoria.png";
@@ -33,45 +33,45 @@ export const Projects = () => {
       <div className="box-projects">
         <Box
           src={BellaHImage}
-          title={"Bellah Freire"}
-          id={"bella"}
+          title="Bellah Freire"
+          id="bella"
           link={`${linkBellah}`}
-          delay={"1.1s"}
+          delay="1.1s"
         />
         <Box
           src={CharlesImage}
-          title={"Charles Gama"}
-          id={"charles"}
-          link={linkCharles}
-          delay={"1.3s"}
+          title="Charles Gama"
+          id="ch`arles"
+          link={`${linkCharles}`}
+          delay="1.3s"
         />
         <Box
           src={CamilasImage}
-          title={"Cerimonial Camila`s"}
-          id={"camilas"}
-          link={linkCamilas}
-          delay={"1.5s"}
+          title="Cerimonial Camila`s"
+          id="camilas"
+          link={`${linkCamilas}`}
+          delay="1.5s"
         />
         <Box
           src={TaynaImage}
-          title={"Tayna Consultoria"}
-          id={"tayna"}
-          link={linkTayna}
-          delay={"1.7s"}
+          title="Tayna Consultoria"
+          id="tayna"
+          link={`${linkTayna}`}
+          delay="1.7s"
         />
         <Box
           src={BioImage}
-          title={"Codando Com Gabriel"}
-          id={"bio"}
-          link={linkBio}
-          delay={"1.9s"}
+          title="Codando Com Gabriel"
+          id="bio"
+          link={`${linkBio}`}
+          delay="1.9s"
         />
         <Box
           src={LinkImage}
-          title={"Gabriel Dev"}
-          id={"gabriel"}
-          link={linkGabriel}
-          delay={"2.1s"}
+          title="Gabriel Dev"
+          id="gabriel"
+          link={`${linkGabriel}`}
+          delay="2.1s"
         />
       </div>
     </>
